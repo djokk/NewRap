@@ -1,0 +1,161 @@
+a {
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  // justify-content: space-between;
+}
+
+.album {
+  margin-left: 50px;
+  padding-top: 15px;
+}
+
+.album-name {
+  position: fixed;
+}
+
+.album-name h1 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.album-info {
+  display: flex;
+}
+
+.album-info h3 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: .5;
+}
+
+.album-info h4 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-left: 30px;
+  opacity: .5;
+}
+
+.album .album-img {
+  width: 435px;
+  height: 300px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.album .img-cub {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.75);
+}
+
+.vinyl-data {
+  width: 276px;
+  height: 276px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+
+.rotate{
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+  100%{
+   transform: rotate(360deg);
+  }
+}
+
+.album .vinyl-disk {
+  width: 276px;
+  height: 276px;
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 0.5px rgba(0,0,0,0.75);
+}
+
+.album .vinyl-img {
+  width: 141px;
+  height: 141px;
+  border-radius: 50%;
+  position: absolute;
+  right: 67px;
+}
+
+.album-data {
+  height: 100%;
+  display: block;
+  position: relative;
+  /* margin-right: 100px; */
+  margin-left: 650px;
+  padding-top: 113px;
+  position: relative;
+}
+
+.album-data .album-music {
+  /* border: 1px solid red; */
+  position: relative;
+}
+
+.album-music a {
+  display: block;
+  height: 35px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+  padding: 5px 30px 5px 30px;
+}
+
+.album-music a:hover {
+  color: #FF002E;
+}
+
+.album-music__item:nth-last-child(1){
+  margin-bottom: 238px;
+}
+
+.shadow {
+  position: fixed;
+  box-shadow: 0 45px 15px #232C32;
+  width: 500px;
+  height: 140px;
+  top: 0;
+  right: 130px;
+  background: #232C32;
+  z-index: 1;
+}
+
+.shadow-two {
+  position: fixed;
+  box-shadow: 0px -35px 15px #232C32;
+  width: 500px;
+  height: 300px;
+  margin-top: 50vh;
+  right: 130px;
+  background: #232C32;
+  z-index: 1;
+}
+
+
+
+
+
+
